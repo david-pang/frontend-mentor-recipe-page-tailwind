@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+    --color-brandy-red: #854632;
+    --color-dark-charcoal: #312e2c;
+    --color-dark-raspberry: #7a284e;
+    --color-eggshell: #f3e5d7;
+    --color-snow: #fff7fb;
+    --color-wenge-brown: #5f564d;
+    --color-white-coffee: #e3ddd7;
+
+    --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-serif: "Young Serif", ui-serif, Georgia, Cambria, "Times New Roman",
+        Times, serif;
+
+    --text-base-dynamic: max(1vw, 16px);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url("../fonts/young-serif/YoungSerif-Regular.ttf");
+}
